@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    box-shadow:inset 0px 0px 50px 0 black, 0px 0px 50px 0 black ;
+}
+/*Bayrak ici görüntüyü elde etmek icin clip-pad: polygon dan faydalandık*/
+.box{
+    background-color: white;
+  
+    clip-path: polygon(12% 37%, 37% 37%, 37% 12%, 62% 12%, 62% 37%, 87% 37%, 87% 62%, 62% 62%, 62% 87%, 37% 87%, 37% 62%, 12% 62%);
+}
